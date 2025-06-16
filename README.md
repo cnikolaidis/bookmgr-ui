@@ -12,6 +12,9 @@ npx create-react-app bookmgr-ui
 
 // Install React Router package
 npm install react-router-dom
+
+// Install rest of application packages
+npm i
 ```
 
 ## Running the application
