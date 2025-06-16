@@ -89,7 +89,8 @@ const EditBook = () => {
 							type="text"
 							name="category"
 							value={form.category}
-							onChange={handleChange}/>
+							onChange={handleChange}
+							required/>
 					</div>
 					<div style={{ padding: '5px' }}>
 						<label>Έτος Έκδοσης</label>

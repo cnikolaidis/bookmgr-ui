@@ -79,7 +79,8 @@ const EditAuthor = () => {
 							type="text"
 							name="nationality"
 							value={form.nationality}
-							onChange={handleChange}/>
+							onChange={handleChange}
+							required/>
 					</div>
 					<div style={{ padding: '5px' }}>
 						<label className="block font-semibold">Ημερομηνία Γέννησης</label>
@@ -87,7 +88,8 @@ const EditAuthor = () => {
 							type="date"
 							name="dateOfBirth"
 							value={form.dateOfBirth || ''}
-							onChange={handleChange}/>
+							onChange={handleChange}
+							required/>
 					</div>
 				</div>
 				<div style={{ justifySelf: 'center' }}>
