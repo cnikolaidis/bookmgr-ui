@@ -35,6 +35,7 @@ We can run any script by using the script's name like below
 ```bash
 // Start React JS application (usually localhost:3000)
 npm run start
+
 // Build application (final deployment files)
 npm run build
 ```
